@@ -1,5 +1,42 @@
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    flex-direction: row;
+    display: flex;
+    height: 95vh;
+    min-height: 95vh;
+    max-height: 100vh;
+    color: #efefef;
+}
+
+h1 {
+    font-family: Norse;
+    font-size: 100px;
+}
 
 #left-side {
-    background-image: url(image/background.png);
-    color: #efefef;
+    background: url(image/background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    border: red 5px solid;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    margin: 0;
+    border: red 5px solid;
 }
