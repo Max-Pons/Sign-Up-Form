@@ -4,17 +4,20 @@
 }
 
 html {
-    box-sizing: border-box;
+   display: flex;
+   margin: 0;
+   padding: 0;
 }
 
 body {
     margin: 0;
+    padding: 0;
     flex-direction: row;
     display: flex;
-    height: 95vh;
-    min-height: 95vh;
-    max-height: 100vh;
+    height: 98vh;
+    width: 100vw;
     color: #efefef;
+    border: blue 5px solid;
 }
 
 h1 {
@@ -24,12 +27,22 @@ h1 {
 
 #left-side {
     background: url(image/background.png);
-    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    padding: 0;
     border: red 5px solid;
+    flex: 1;
+}
+
+#left-side img {
+    height: 101px;
+    width: 76px;
 }
 
 #right-side {
@@ -39,4 +52,5 @@ h1 {
     color: #000000;
     margin: 0;
     border: red 5px solid;
+    flex: 2;
 }
