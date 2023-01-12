@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 @font-face {
     font-family: Norse;
     src: url(Norse-Bold.otf);
@@ -7,6 +9,7 @@ html {
    display: flex;
    margin: 0;
    padding: 0;
+   font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -14,10 +17,9 @@ body {
     padding: 0;
     flex-direction: row;
     display: flex;
-    height: 98vh;
+    height: 100vh;
     width: 100vw;
-    color: #efefef;
-    border: blue 5px solid;
+    color: #efefef;;
 }
 
 h1 {
@@ -27,8 +29,7 @@ h1 {
 
 #left-side {
     background: url(image/background.png);
-    background-position: center;
-    background-size: auto;
+    background-size: 459px;
     background-repeat: no-repeat;
     width: 40vw;
     display: flex;
@@ -36,13 +37,33 @@ h1 {
     justify-content: center;
     margin: 0;
     padding: 0;
-    border: red 5px solid;
     flex: 1;
 }
 
 #left-side img {
     height: 101px;
     width: 76px;
+    margin: 0;
+}
+
+#left-side h1 {
+    position: relative;
+    background-color: rgba(0,0,0,0.5);;
+    display: flex;
+    justify-content: center;
+    top: -100px;
+}
+
+#left-side p {
+    position: relative;
+    top: 192px;
+    font-weight: bold;
+    text-align: center;
+    color: #efefef;
+}
+
+#left-side a {
+    color: #efefef;
 }
 
 #right-side {
@@ -51,6 +72,5 @@ h1 {
     justify-content: center;
     color: #000000;
     margin: 0;
-    border: red 5px solid;
     flex: 2;
 }
