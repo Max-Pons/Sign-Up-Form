@@ -73,4 +73,80 @@ h1 {
     color: #000000;
     margin: 0;
     flex: 2;
+    padding: 5%;
+}
+
+#right-side p {
+    font-weight: 900;
+}
+
+#text_inputs {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 4px -2px black;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+#right-side #left-form,
+#right-side #right-form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    flex: auto;
+}
+
+#left-form label,
+#right-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#left-form input,
+#right-form input {
+    box-shadow: 0px 0px 2px black;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+}
+
+#left-form input:focus,
+#right-form input:focus {
+    box-shadow: 0px 0px 4px #000000;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    outline: none;
+}
+
+#buttons button {
+    border-radius: 7px;
+    background-color: #596D48;
+    font-size: large;
+    color: #efefef;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 11px;
+}
+
+#buttons button:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+#buttons a {
+    color: #596D48;
+    text-decoration: none;
 }
